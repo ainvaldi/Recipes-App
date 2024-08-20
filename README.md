@@ -8,7 +8,7 @@ Crear una aplicación en React que permita a los usuarios gestionar recetas de c
 
 ### Manejo de usuarios
 
-- Agregar nuevo usuario con un registro y poder loguearme en la app - Usar localStorage y sessionStorage.
+- Agregar nuevo usuario con un registro y poder loguearme en la app - Usar `localStorage y sessionStorage`.
 - Manejar dinamicamente rutas que puede acceder el usuario logueado y deslogueado.
 
 ### Agregar Recetas
@@ -26,7 +26,7 @@ Crear una aplicación en React que permita a los usuarios gestionar recetas de c
 ### Mostrar Detalles de una receta
 
 - La aplicación debe mostrar detalles de cada receta, como su nombre, descripcion e ingredientes.
-- Debemos navegar hacia esta vista usando useParams con el id de la receta en particular.
+- Debemos navegar hacia esta vista usando `useParams` con el id de la receta en particular.
 
 ### Eliminar Recetas
 
