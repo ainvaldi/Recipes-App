@@ -2,9 +2,14 @@
 
 ## Objetivo
 
-Crear una aplicación en React que permita a los usuarios gestionar recetas de cocina. La aplicación debe utilizar los hooks `useState`, `useEffect`, y `useContext` para manejar el estado y efectos secundarios.
+Crear una aplicación en React que permita a los usuarios gestionar recetas de cocina. La aplicación debe utilizar los hooks `useState`, `useEffect`, y `useContext` para manejar el estado y efectos secundarios. Ademas, crear una seccion de recetas y una seccion de detalles de una receta. La App debe permitir registrar y loguear usuarios.
 
 ## Requisitos Funcionales
+
+### Manejo de usuarios
+
+- Agregar nuevo usuario con un registro y poder loguearme en la app - Usar localStorage y sessionStorage.
+- Manejar dinamicamente rutas que puede acceder el usuario logueado y deslogueado.
 
 ### Agregar Recetas
 
@@ -17,6 +22,11 @@ Crear una aplicación en React que permita a los usuarios gestionar recetas de c
 - La aplicación debe mostrar una lista de todas las recetas agregadas.
 - Cada receta en la lista debe mostrar su nombre y descripción.
 - La lista debe actualizarse automáticamente cuando se agrega o elimina una receta.
+
+### Mostrar Detalles de una receta
+
+- La aplicación debe mostrar detalles de cada receta, como su nombre, descripcion e ingredientes.
+- Debemos navegar hacia esta vista usando useParams con el id de la receta en particular.
 
 ### Eliminar Recetas
 
